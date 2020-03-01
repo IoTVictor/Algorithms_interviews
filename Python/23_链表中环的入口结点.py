@@ -9,7 +9,7 @@ class Solution:
             return None
         slow = pHead
         fast = pHead
-        while fast != None and fast != next:
+        while fast != None and fast.next != None:
             slow = slow.next
             fast = fast.next.next
             if slow == fast:
@@ -29,7 +29,7 @@ class Solution:
     # def EntryNodeOfLoop(self, pHead):
     #     slow = pHead
     #     fast = pHead
-    #     while(fast != None and fast != next):
+    #     while(fast != None and fast.next != None):
     #         slow = slow.next
     #         fast = fast.next.next
     #         if slow == fast:  # 第一次相撞
@@ -40,5 +40,5 @@ class Solution:
     #                 slow = slow.next
     #             return slow
     #     return None
-
-
+    #
+    #
