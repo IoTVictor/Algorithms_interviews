@@ -5,6 +5,7 @@ class TreeNode:
         self.left = None
         self.right = None
 # 递归终止条件：达到了树A或者树B的叶节点，即遍历完某树
+# 输入两棵二叉树A，B，判断B是不是A的子结构。（ps：我们约定空树不是任意一个树的子结构）
 class Solution:
     # 遍历函数
     def HasSubtree(self, pRoot1, pRoot2):

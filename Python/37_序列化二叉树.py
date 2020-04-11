@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# 请实现两个函数，分别用来序列化和反序列化二叉树
 class TreeNode:
     def __init__(self, x):
         self.val = x
